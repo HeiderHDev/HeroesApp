@@ -36,7 +36,7 @@ export class HeroesService {
         return this.http.patch<Hero>(`${this.baseUrl}/heroes/${hero.id}`, hero);
     }
 
-    delateHeroById(hero: Hero): Observable<boolean>{
+    deleteHeroById(hero: Hero): Observable<boolean>{
         return this.http.delete(`${this.baseUrl}/heroes/${hero.id}`)
             .pipe(
                 catchError( err => of(false)),
