@@ -1,5 +1,5 @@
 
 
 export const environments = {
-    baseUrl: 'http://heider-backend.herokuapp.com',
+    baseUrl: 'http://localhost:3000',
 }
