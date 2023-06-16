@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "usuario": "John Doe",
+      "user": "John Doe",
       "email": "john.due@gmail.com"
     }
   ],
@@ -166,15 +166,6 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
-    },
-    {
-      "id": "9MLAfKq",
-      "superhero": "Heider ",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Rey Del Todo",
-      "first_appearance": "Comic 150",
-      "characters": "Hrh",
-      "alt_img": "https://academiaplay.es/wp-content/uploads/2018/08/web-arturo.jpg"
     }
   ]
 }

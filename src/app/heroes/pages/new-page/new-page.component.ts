@@ -86,7 +86,7 @@ export class NewPageComponent implements OnInit {
     });
 
     dialogRef
-      .afterClosed()
+      .afterClosed() 
       .pipe(
         filter((result: boolean) => result),
         switchMap(() => this.heroesService.deleteHeroById(this.currentHero)),
